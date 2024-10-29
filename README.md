@@ -3,3 +3,4 @@ This is a Ransomware scripted in Python, which will encrypt the files in predefi
 Will update the script in few days
 
 Thank You!
+
