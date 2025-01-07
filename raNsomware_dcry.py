@@ -62,7 +62,7 @@ def main():
     # Detect operating system
     os_type = platform.system()
     if os_type == "Windows":
-            target = r"C:\Users\Nikhil Kulkarni\Desktop\Nik"
+            target = r"C:\\Users\\%USERNAME%\\Desktop\\Nik"
     elif os_type == "Linux":
         target = "/root"
     else:
