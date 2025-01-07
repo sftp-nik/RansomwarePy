@@ -6,7 +6,7 @@ from cryptography.hazmat.backends import default_backend
 import platform  # Importing platform module
 
 # predefined password
-PASSWORD = "Nik"
+PASSWORD = "Your Password"
 
 def derive_key(password: str, salt: bytes) -> bytes:
     kdf = Scrypt(
